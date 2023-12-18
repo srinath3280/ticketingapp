@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.header{
+    height: 75px;
+    box-shadow: 0px 3px 7px gray;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-h1{
+    height: 75px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+    text-align: center;
+    line-height: 75px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#log-btn{
+    width: auto;
+    height: 30px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+    transition-duration: 1s;
+    border: none;
+    background-color: transparent;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#log-btn:hover{
+    color: white;
+    border-radius: 25% 0;
+    background-color: lightslategray;
 }
-
-.App-link {
-  color: #61dafb;
+#btn{
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginform{
+    width: 250px;
+    height: auto;
+    border: 1px solid lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 2px 2px 5px lightgrey,-2px -2px 5px lightgrey;
+    transition: 1.2s;
+}
+.loginform:hover{
+    box-shadow: 2px 2px 5px rgb(216, 177, 177),-2px -2px 5px rgb(216, 177, 177);
+}
+.dashboard{
+    margin-top: -50px;
+}
+.customerdashboard{
+    margin: 20px;
+}
+.addticket{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    border: 1px solid lightcyan;
+    box-shadow: 3px 3px 7px lightslategray,-3px -3px 7px lightslategray;
+}
+#loading{
+    text-align: center;
+}
+.managerdashboard{
+    margin: 20px;
 }
